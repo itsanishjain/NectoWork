@@ -1,0 +1,27 @@
+
+{% load static %}
+<html>
+
+<head><script src="{% static 'style.css' %}" defer></script></head>
+
+<body>
+    <div class="main">
+        <div class="center">
+            <div class="sub-center">
+                <div class="card">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rdiiRa8wplSKN0H0w8JsVwHaHf%26pid%3DApi&f=1"
+                        alt="" width="64px">
+                    <h2 class="pt">Hi {{ user }},</h2>
+                    <div>Your verification code for {{domain}}</div>
+                    <br/>
+                    <h1>{{OTP}}</h1>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
